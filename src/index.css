@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+* {
+  font-family: "Lato", sans-serif;
+}
+
+.btn-danger {
+  background-color: #e71800 !important;
+  border: none !important;
+}
+
+.text-danger {
+  color: #e71800 !important;
+}
+
+.bg-image {
+  background-image: url(./assets/hero.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 550px;
+}
+
+.bg-red {
+  background-color: #e71800 !important;
+  width: 180px;
+  height: 6px;
+  border-radius: 8px;
+  /* margin: 0 auto; */
+}
+
+.cover {
+  background: url("../src/assets/cover.png");
+  height: 196px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
